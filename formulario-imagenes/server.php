@@ -1,3 +1,11 @@
 <?php
 
-var_dump($_POST);
+
+//  echo "<pre>";
+// var_dump($_FILES);
+// echo "</pre>"; 
+
+$basename = $_FILES["image"]["name"];
+
+echo $basename;
+echo "<img src='$basename'>";
