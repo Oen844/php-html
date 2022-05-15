@@ -20,13 +20,26 @@
 
         <!-- Arreglos asosciativos -->
 
-        <label for="">Nombre:</label>
+        <!-- <label for="">Nombre:</label>
         <input type="text" name="persona[nombre]">
         <label for="email">Email:</label>
         <input type="email" name="persona[mail]">
         <label for="edad">Edad:</label>
-        <input type="number" name="persona[edad]">
+        <input type="number" name="persona[edad]"> -->
 
+        <!-- Radios -->
+        
+        <!-- <label for="mexico">Mexico</label>
+        <input type="radio" name="pais" value= "Mexico">
+        <label for="españa">España</label>
+        <input type="radio" name="pais" value="España">
+        <label for="EEUU">EEUU</label>
+        <input type="radio" name="pais" value="EEUU"> -->
+
+        <!-- Multiples archivos -->
+
+        <label for="galeria">Carga tus imágenes</label>
+        <input type="file" multiple name="galeria[]" id="galeria">
 
         <button type="submit">Mandar formulario</button>
     </form>
